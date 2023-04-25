@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: gold;
+    padding: 20px;
+}
+#enter{
+    margin-left: 10%;
+    font-size: 1.2rem;
+}
+.name{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8.5rem;
+    font-size: 1.2rem;
+    margin-left: 10%;
+    
+}
+.number{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8.5rem;
+    font-size: 1.2rem;
+    margin-left: 10%;
+}
+#firstname{
+    padding: 10px;
+    width: 250px;
+}
+#lastname{
+    padding: 10px;
+    width: 250px;
+}
+#phonenumber{
+    padding: 10px;
+    width: 250px;
+}
+#gmail{
+    padding: 10px;
+    width: 250px;
+}
+.box{
+    padding: 50px;
+    border-radius: 2rem;
+    margin-left: 65%;
+    margin-top: -14%;
+    border: 1px solid;
+    width: 250px;
+    height: 350px;
+
+}
+.pro2{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8.5rem;
+}
+#save{
+    border-radius: 2rem;
+    height: 50px;
+    width: 250px;
+    font-size: 1.4rem;
+    color: forestgreen;
+    border-color: forestgreen;
+
+}
+.promo{
+    border-radius: 2rem;
+    height: 50px;
+    width: 250px; 
+    font-size: 1.4rem;  
+}
+.promo ,i{
+     font-size: 1.6rem;
+     
+}
+#saves{
+    border-radius: 2rem;
+    height: 50px;
+    width: 250px; 
+    background-color: gold;
+    font-size: 1.4rem;
+}
+#entry{
+    margin-left: 10%;
+    margin-top: -11%;
+    font-size: 1.2rem;
+}
+.pickup{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4.5rem;
+    font-size: 1.2rem;
+}
+.delivery{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4.5rem;
+    font-size: 1.2rem;
+}
+.location{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4.5rem;
+    font-size: 1.2rem;
+}
+.general{
+    margin-left: 10%;
+}
+#add{
+    margin-left: 14%;
+    color: palevioletred;
+    
+}
+#free{
+    color: forestgreen;
+}
+#checked{
+    color: gold;
+}
+.payment{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4.5rem;
+    font-size: 1.2rem;
+}
+#move{
+    margin-left: 15%;
+}
+#moved{
+    margin-left: 10.5%;
+}
+#moves{
+    margin-left: 11.3%;
+}
+.footer{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    font-size: 1.2rem;
+    margin-left: 45%
+}
+body{
+    font :15rem , "Nunito", sans-serif;
+    background-color: #475569;
+    background-image: radial-gradient(whitesmoke, #475569);
+  }

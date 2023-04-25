@@ -1,0 +1,159 @@
+nav{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 18px;
+    margin-left: 28%;
+  }
+  nav ul{
+      list-style-type: none;
+      text-align: center;
+      padding: 0, 5px;
+  }
+  nav ul,li, a{
+         text-transform: capitalize;
+         display: flex; 
+         padding: 10px;   
+  }
+  #images1{
+    width: 600px;
+    height: 400px;
+  }
+  .content1{
+      background-color: gold;
+      margin-top: -4.5%;
+      padding:5px 10px;
+      margin: 20px 10px;
+      display: flex;
+      justify-content: space-between;    
+  }
+  
+  #flex{
+    border-radius: 30px;
+    width: 200px;
+  }
+  .box{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px; 
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box; 
+    margin-left: 15%;
+  
+  } 
+  .box > i{
+    font-size: 20px;
+    margin-left: 15px;
+  } 
+   .box > input{
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+  
+  }
+  .contents{
+    display: flex;
+    justify-content: space-between;
+  }
+  .Nka{
+   margin-right: 20%;
+  
+  }
+  #images2{
+    width: 180px;
+    height: 150px;
+  }
+  .ringo{
+    display: flex;
+    justify-content: space-between;
+  }
+  .bingo{
+    display: flex;
+    justify-content: space-between;
+  }
+  #pandas{
+    margin-left: 45%;
+  }
+  #panda{
+    margin-left: 50%;
+  }
+  #turn{
+    margin-left: 40%;
+  }
+  .run{
+    display: flex;
+    justify-content: space-between;
+  }
+  .moraa{
+    background-color: gold;
+    display: flex;
+    margin-top: 3%;
+  }
+  #search{
+    border-radius: 20px;
+    width: 300px;
+    font-size: 15px;
+    margin-left: 30%;
+  }
+  #pp{
+    margin-left: 15%;
+    font-size: 20px;
+  }
+  #turns{
+    margin-left: 45%;
+  }
+  .bang{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .bangs{
+    justify-content: space-between;
+    display: flex;
+  }
+  .makena{
+    display: flex;
+    justify-content: space-between;
+    background-color: purple;
+    color: white;
+  }
+  body{
+    background-color: #475569;
+    background-image: radial-gradient(whitesmoke, #475569);
+  }
+  @media only screen and (max-device-width: 480px) {
+    body{
+        width: auto;
+        height: auto;
+    }
+  
+    div{
+        float: none;
+        width: auto;
+    }
+     .content1, .contents{
+        float:none;
+        width: auto;
+    }
+  }
+  @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    body {
+      width: auto;
+      height: auto;
+  }
+  
+  #content1,.contents {
+      width: auto;
+      margin: auto;
+  }
+  #images1,#images2{
+    float: none;
+    width: auto;
+  }
+  }
+  
